@@ -1,0 +1,41 @@
+.vv {
+              height: 70vh;
+              width: 100%;
+              position: relative;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              
+             
+}
+.vv video{
+              height: 70vh;
+              width: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              object-fit: cover;
+              z-index: 1;
+
+}
+.effect{
+              height: 70vh;
+              width: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              object-fit: cover;
+              z-index: 2;
+              background-color: rgba(0, 0, 0, 0.359);
+
+}
+.video-text {
+color: rgba(127, 255, 212, 0.599);
+z-index: 2;
+
+}
+.terere{
+              font-size: 8rem;
+              font-family:Arial, Helvetica, sans-serif;
+}
+

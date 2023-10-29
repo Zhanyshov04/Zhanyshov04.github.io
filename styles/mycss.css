@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family= Medium 500 italic &display=swap');
+
+body{
+              font-family: Medium 500 italic, serif;
+              background: linear-gradient(90deg, #173198 0%, #1c1c1c 100%);  
+}
+.nav-link {
+              color: aquamarine;
+}
+.navbar-nav .nav-link.active{
+              color: aqua;
+}
+.navbar-brand img{
+width: 60px;
+
+}
+.navbar-toggler{
+              background-color: rgb(137, 143, 143);
+}
+.era{
+     color: aquamarine; 
+     background: linear-gradient(100deg, #080808 0%, #123198 100%);  
+}
+.card{
+              background: linear-gradient(100deg, #080808 0%, #123198 100%);           
+              color: aquamarine;
+}
+.card a{
+text-decoration: none;
+color: aquamarine;
+}
+@media (max-width:755px){
+     .carousel-indicators{ display:none;
+          
+          
+     }
+}
+.call-anim{
+     animation: myAnim 4s ease 0s 1 reverse forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+footer{
+     color: aquamarine;
+     background: linear-gradient(100deg, #080808 0%, #123198 100%);  
+}
+.btn-primary{
+     color: aquamarine;
+     background: linear-gradient(100deg, #080808 0%, #123198 100%);  
+
+}
+
+
+
+
