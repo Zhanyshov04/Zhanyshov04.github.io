@@ -3,6 +3,8 @@
 body{
               font-family: Medium 500 italic, serif;
               background: linear-gradient(90deg, #173198 0%, #1c1c1c 100%);  
+	background: linear-gradient(100deg, #080808 0%, #123198 100%);           
+              color: aquamarine;
 }
 .nav-link {
               color: aquamarine;
