@@ -30,7 +30,7 @@ width: 60px;
 text-decoration: none;
 color: aquamarine;
 }
-@media (max-width:755px){
+@media (max-width:600px){
      .carousel-indicators{ display:none;
           
           
@@ -65,6 +65,7 @@ header{
 background: linear-gradient(100deg, #080808 0%, #123198 100%);           
               color: aquamarine;
 }
+
 
 
 
